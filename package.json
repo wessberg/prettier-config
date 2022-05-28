@@ -1,0 +1,31 @@
+{
+	"name": "@wessberg/prettier-config",
+	"version": "1.0.0",
+	"description": "My Prettier config",
+	"main": "index.json",
+	"scripts": {
+		"publish:major": "npm version major && git push && npm publish",
+		"publish:minor": "npm version minor && git push && npm publish",
+		"publish:patch": "npm version patch && git push && npm publish"
+	},
+	"files": [
+		"index.json"
+	],
+	"keywords": [
+		"Prettier",
+		"config"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Frederik Wessberg",
+		"email": "frederikwessberg@hotmail.com",
+		"url": "https://github.com/wessberg"
+	},
+	"bugs": {
+		"url": "https://github.com/wessberg/prettier-config/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wessberg/prettier-config.git"
+	}
+  }
